@@ -1,13 +1,39 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer utilities {
+  .link-underline {
+    border-bottom-width: 1px;
+    border-bottom-color: #4e4e50;
+    background-image: linear-gradient(transparent, transparent),
+      linear-gradient(#fff, #fff);
+    background-size: 0 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.8s ease-in-out;
+  }
+
+  .link-underline-black {
+    background-image: linear-gradient(transparent, transparent),
+      linear-gradient(#fff, #fff);
+  }
+
+  .link-underline:hover {
+    background-size: 100% 1px;
+    background-position: 0 100%;
+    border-bottom-width: 1px;
+  }
+  .background {
+    background: #161415
+      url("https://firebasestorage.googleapis.com/v0/b/ritu-portfolio.appspot.com/o/contact.jpg?alt=media&token=c6cf2e14-51e7-4492-93c9-6493bca2ca35")
+      no-repeat top center;
+    background-size: cover !important;
+  }
+  .backgroundHome {
+    background: #161415
+      url("https://firebasestorage.googleapis.com/v0/b/ritu-portfolio.appspot.com/o/final2.jpeg?alt=media&token=a25cb140-5c1b-4d62-9501-6a9469a5da7d")
+      no-repeat top center;
+    background-size: cover !important;
+  }
 }
