@@ -3,10 +3,17 @@ import { Circle } from "better-react-spinkit";
 
 function Loader() {
   return (
-    <center style={{ display: "grid", placeItems: "center", height: "100vh" }}>
-      <div>
-        <Circle color="#3cbc28" size={60} />
-        <h1>Loading...</h1>
+    <center
+      style={{
+        display: "grid",
+        placeItems: "center",
+        height: "100vh",
+        backgroundColor: "#1a1a1d",
+      }}
+    >
+      <div classname="">
+        <Circle color="#65ccb8" size={60} />
+        <h1 className="text-white pt-5">Loading...</h1>
       </div>
     </center>
   );

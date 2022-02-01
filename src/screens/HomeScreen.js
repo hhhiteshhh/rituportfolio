@@ -24,11 +24,11 @@ function HomeScreen() {
         <div className="flex flex-col items-center justify-center ">
           <TypeWriter
             typing={0.6}
-            className="text-9xl h-32 font-bold text-[#e85a4f] -mt-20"
+            className="text-6xl h-20 sm:text-9xl sm:h-32 font-bold text-[#65ccb8] -mt-20"
           >
             Ritu Singh
           </TypeWriter>
-          <p className="text-white text-2xl foont-bold p-10 text-center">
+          <p className="text-white text-md sm:text-2xl foont-bold p-7 pb-10 sm:p-10 text-center">
             An educator who helps,inspire an encourage learners
             <br /> to make a positive impact in the world
           </p>

@@ -8,7 +8,7 @@ import { RecoilRoot } from "recoil";
 
 function App() {
   return (
-    <div className="max-w-8xl mx-auto ">
+    <div className="max-w-8xl mx-auto overflow-x-hidden ">
       <RecoilRoot>
         <Router>
           <Routes>

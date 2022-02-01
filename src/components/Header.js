@@ -8,7 +8,7 @@ function Header() {
 
   return (
     <div
-      className={`flex flex-1 flex-grow items-center justify-center space-x-5 sticky top-0 z-50  p-2 lg:px-5 shadow-xl bg-[#222629]`}
+      className={`flex flex-1 flex-shrink text-sm md:text-lg lg:text-2xl space-x-5 md:space-x-8 lg:space-x-10 items-center justify-center sticky top-0 z-50  p-2 lg:px-5 shadow-xl bg-[#222629]`}
     >
       <h1
         onClick={() => {
@@ -16,8 +16,8 @@ function Header() {
           navigate("/");
         }}
         className={`${
-          currentNavItem === "home" ? "text-[#e85a4f]" : "text-white"
-        } cursor-pointer hover:scale-105 px-5`}
+          currentNavItem === "home" ? "text-[#65ccb8]" : "text-[#6b6e70]"
+        } cursor-pointer hover:scale-105`}
       >
         HOME
       </h1>
@@ -27,8 +27,8 @@ function Header() {
           navigate("/achievements");
         }}
         className={`${
-          currentNavItem === "achievements" ? "text-[#e85a4f]" : "text-white"
-        } cursor-pointer hover:scale-105 px-5`}
+          currentNavItem === "achievements" ? "text-[#65ccb8]" : "text-[#6b6e70]"
+        } cursor-pointer hover:scale-105`}
       >
         ACHIEVEMENTS
       </h1>
@@ -38,8 +38,8 @@ function Header() {
           navigate("/about");
         }}
         className={`${
-          currentNavItem === "about" ? "text-[#e85a4f]" : "text-white"
-        } cursor-pointer hover:scale-105 px-5`}
+          currentNavItem === "about" ? "text-[#65ccb8]" : "text-[#6b6e70]"
+        } cursor-pointer hover:scale-105`}
       >
         ABOUT
       </h1>
@@ -49,8 +49,8 @@ function Header() {
           navigate("/contact");
         }}
         className={`${
-          currentNavItem === "contact" ? "text-[#e85a4f]" : "text-white"
-        } cursor-pointer hover:scale-105 px-5`}
+          currentNavItem === "contact" ? "text-[#65ccb8]" : "text-[#6b6e70]"
+        } cursor-pointer hover:scale-105`}
       >
         CONTACT
       </h1>
