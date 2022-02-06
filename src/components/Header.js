@@ -1,9 +1,14 @@
 import React from "react";
-import { useNavigate } from "react-router";
+import { useNavigate, useLocation } from "react-router";
 import { currentNav } from "../atoms/currentNavAtom";
 import { useRecoilState } from "recoil";
 function Header() {
   const navigate = useNavigate();
+  const location = useLocation();
+  React.useEffect(() => {
+    var oldPath = location.pathname.split("/")[1];
+    setCurrentNavItem(oldPath);
+  }, [location]);
   const [currentNavItem, setCurrentNavItem] = useRecoilState(currentNav);
 
   return (
@@ -27,7 +32,9 @@ function Header() {
           navigate("/achievements");
         }}
         className={`${
-          currentNavItem === "achievements" ? "text-[#65ccb8]" : "text-[#6b6e70]"
+          currentNavItem === "achievements"
+            ? "text-[#65ccb8]"
+            : "text-[#6b6e70]"
         } cursor-pointer hover:scale-105`}
       >
         ACHIEVEMENTS
