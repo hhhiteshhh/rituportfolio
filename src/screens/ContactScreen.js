@@ -60,8 +60,8 @@ function ContactScreen() {
           ) : (
             <>
               <div className="flex items-center justify-center flex-col">
-                <h1 className="text-white">/CONTACT US/</h1>
-                <p className=" text-white text-lg md:text-4xl p-5 md:p-14">
+                <h1 className="text-white font-bold">/CONTACT US/</h1>
+                <p className=" text-white text-lg md:text-4xl p-5 md:p-14 font-semibold">
                   Drop me a message
                 </p>
               </div>

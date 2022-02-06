@@ -10,6 +10,7 @@ import AchievementsScreen from "./screens/AchievementsScreen";
 import ContactScreen from "./screens/ContactScreen";
 import HomeScreen from "./screens/HomeScreen";
 import { RecoilRoot } from "recoil";
+import Blog from "./components/Blog";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
               element={<AchievementsScreen />}
             />
             <Route exact path="/contact" element={<ContactScreen />} />
+            <Route exact path="/blog" element={<Blog />} />
           </Routes>
         </Router>
       </RecoilRoot>

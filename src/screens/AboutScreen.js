@@ -6,6 +6,7 @@ import Header from "../components/Header";
 import Loader from "../components/Loader";
 import Skills from "../components/Skills";
 import Call from "../components/Call";
+import Hobbies from "../components/Hobbies";
 
 function AboutScreen() {
   const [loading, setLoading] = useState(true);
@@ -32,6 +33,8 @@ function AboutScreen() {
       <div className="h-[0.8px] bg-[#4e4e50] w-full"></div>
       <Skills />
       <div className="h-[0.8px] bg-[#4e4e50] w-full"></div>
+      <div className="h-[0.8px] bg-[#4e4e50] w-full"></div>
+      <Hobbies />
       <div className="h-[0.8px] bg-[#4e4e50] w-full"></div>
       <Call />
       <div className="h-[0.8px] bg-[#4e4e50] w-full"></div>

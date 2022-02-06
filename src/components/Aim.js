@@ -3,8 +3,8 @@ import React from "react";
 function Aim() {
   return (
     <div className="flex mx-auto px-3 items-center justify-center flex-col py-5 bg-[#1a1a1d] text-white md:text-xl">
-      <h1 className="my-5 text-lg md:text-4xl">
-        /Difference I want to make in Society
+      <h1 className="my-5 text-lg md:text-4xl font-bold">
+        /Difference I want to make in Society/
       </h1>
       <p className="pb-5 text-center">
         Growing up in a middle class Indian family involves a lot of
