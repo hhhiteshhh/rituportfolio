@@ -18,7 +18,7 @@ function Header() {
       <h1
         onClick={() => {
           setCurrentNavItem("home");
-          navigate("/");
+          navigate("/home");
         }}
         className={`${
           currentNavItem === "home" ? "text-[#65ccb8]" : "text-[#6b6e70]"

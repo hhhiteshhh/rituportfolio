@@ -13,7 +13,7 @@ function Footer() {
         <div
           onClick={() => {
             setCurrentNavItem("home");
-            navigate("/");
+            navigate("/home");
           }}
           className="link link-underline link-underline-black text-white w-full text-center mx-auto p-4 cursor-pointer sm:w-80"
         >

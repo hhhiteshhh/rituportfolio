@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Loader from "../components/Loader";
 import { db } from "../firebase";
-import { addDoc, collection, doc, serverTimestamp } from "firebase/firestore";
+import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 import MSTeams from "../components/MSTeams";
 function ContactScreen() {
   const [loading, setLoading] = useState(true);
