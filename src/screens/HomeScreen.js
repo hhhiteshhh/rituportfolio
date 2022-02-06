@@ -38,7 +38,7 @@ function HomeScreen() {
                 setCurrentNavItem("about");
                 navigate("/about");
               }}
-              className=" text-white px-10 hover:scale-110 transition-all duration-100 ease-linear py-4 border-2 rounded-full cursor-pointer hover:text-[#1a1a1d] hover:bg-[#e85a4f] text-xl hover:border-[#e85a4f]"
+              className=" text-white px-10 hover:scale-110 transition-all duration-100 ease-linear py-4 border-2 rounded-full cursor-pointer hover:text-white hover:bg-[#65ccb8] text-xl hover:border-[#65ccb8] "
             >
               About me
             </p>
