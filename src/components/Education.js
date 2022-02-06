@@ -41,6 +41,20 @@ function Education() {
       </p>
       <p className="text-white text-left italic text-md sm:text-2xl"></p>
       <p className="text-white text-left text-sm sm:text-lg ">
+        2017-18 <br />
+        <br />
+        <br />
+        <br />
+        University
+      </p>
+      <p className="text-white text-left text-sm sm:text-lg mr-5">
+        PG diploma in Remote sensing and GIS
+        <br />
+        <br />
+        National Post Graduation college, University of Lucknow, Lucknow
+      </p>
+      <p className="text-white text-left italic text-md sm:text-2xl"></p>
+      <p className="text-white text-left text-sm sm:text-lg ">
         2014-17 <br />
         <br />
         University
