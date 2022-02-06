@@ -21,7 +21,7 @@ function AboutScreen() {
         <Header />
         <div className="min-h-screen flex items-center justify-center">
           <div className="flex flex-col items-center justify-center ">
-            <h1 className="text-3xl h-20 sm:text-5xl sm:h-32 font-semibold text-[#65ccb8]">
+            <h1 className="text-3xl h-20 sm:text-5xl sm:h-32 font-bold text-[#65ccb8]">
               Hi I'm Ritu Singh
             </h1>
           </div>

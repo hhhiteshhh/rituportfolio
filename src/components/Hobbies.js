@@ -10,7 +10,7 @@ function Hobbies() {
         <span className="italic">1. Creative Writing</span>
         <br />
         <br />
-        <h1 className="text-white text-left text-sm sm:text-xl leading-9 pr-10 mr-10">
+        <h1 className="text-white text-left text-sm sm:text-xl leading-9 sm:pr-10 mr-5 sm:mr-10">
           Anyone who engages in creative writing, no matter what genre or style,
           helps in exploring human experience,share new ideas, and advocate for
           a better society. Whether you write your stories for yourself or share
@@ -19,7 +19,7 @@ function Hobbies() {
         </h1>
       </p>
       <p className="text-white mx-auto italic text-md sm:text-3xl mt-4 grid-col-1"></p>
-      <p className="text-white text-left col-span-2 text-sm sm:text-2xl  mb-2 font-bold pr-10 mr-10">
+      <p className="text-white text-left col-span-2 text-sm sm:text-2xl  mb-2 font-bold sm:pr-10 mr-5 sm:mr-10">
         <br />
         /How to write a blog in 20 minutes/
         <br />
@@ -84,14 +84,14 @@ function Hobbies() {
       <p className="text-white mx-auto italic text-md sm:text-3xl mt-4 grid-col-1 px-4">
         Some of my creative writings
       </p>
-      <p className="text-white text-left col-span-2 text-sm sm:text-2xl  mb-2 font-bold">
+      <p className="text-white text-left col-span-2 text-sm sm:text-2xl mb-2 font-bold sm:pr-10 mr-5 sm:mr-10">
         <p>link for post/image</p>
         <p>link for post/image</p>
         <p>link for post/image</p>
         <p>link for post/image</p>
       </p>
       <p className="text-white mx-auto italic text-md sm:text-3xl mt-4 grid-col-1 px-4"></p>
-      <p className="text-white text-left col-span-2 text-sm sm:text-2xl italic mb-2 font-bold">
+      <p className="text-white text-left col-span-2 text-sm sm:text-2xl italic mb-2 font-bold sm:pr-10 mr-5 sm:mr-10">
         <span className="italic">2. Reading</span>
         <br />
         <br />

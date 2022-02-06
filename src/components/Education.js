@@ -11,29 +11,71 @@ function Education() {
       </p>
       <p className="text-white text-left text-sm sm:text-2xl mb-2 font-bold">
         Course
-        <br />
-        Board/University
       </p>
       <p className="text-white text-left italic text-md sm:text-2xl"></p>
-      <p className="text-white text-left text-sm sm:text-lg ">2018-19</p>
-      <p className="text-white text-left text-sm sm:text-lg">
+      <p className="text-white text-left text-sm sm:text-lg ">
+        2020-Present
+        <br />
+        <br />
+        <br />
+        University
+      </p>
+      <p className="text-white text-left text-sm sm:text-lg mr-5">
+        Bachelor of Education (B.Ed)
+        <br />
+        <br />
+        Army Institute of Education, Greater Noida Uttar Pradesh
+      </p>
+      <p className="text-white text-left italic text-md sm:text-2xl"></p>
+      <p className="text-white text-left text-sm sm:text-lg ">
+        2017-19 <br />
+        <br />
+        <br />
+        University
+      </p>
+      <p className="text-white text-left text-sm sm:text-lg mr-5">
         Masters of Arts in Geography
+        <br />
         <br />
         National Post Graduation college, University of Lucknow, Lucknow
       </p>
       <p className="text-white text-left italic text-md sm:text-2xl"></p>
-      <p className="text-white text-left text-sm sm:text-lg ">2018-19</p>
-      <p className="text-white text-left text-sm sm:text-lg">
-        Masters of Arts in Geography
+      <p className="text-white text-left text-sm sm:text-lg ">
+        2014-17 <br />
         <br />
-        National Post Graduation college, University of Lucknow , Lucknow
+        University
+      </p>
+      <p className="text-white text-left text-sm sm:text-lg mr-5">
+        Bachelors of Arts
+        <br />
+        <br />
+        National Post Graduation college, University of Lucknow, Lucknow
       </p>
       <p className="text-white text-left italic text-md sm:text-2xl"></p>
-      <p className="text-white text-left text-sm sm:text-lg ">2018-19</p>
-      <p className="text-white text-left text-sm sm:text-lg">
-        Masters of Arts in Geography
+      <p className="text-white text-left text-sm sm:text-lg ">
+        2013-2014
         <br />
-        National Post Graduation college, University of Lucknow , Lucknow
+        <br />
+        School
+      </p>
+      <p className="text-white text-left text-sm sm:text-lg mr-5">
+        12th
+        <br />
+        <br />
+        Army Public School, Jalandhar, Punjab
+      </p>
+      <p className="text-white text-left italic text-md sm:text-2xl"></p>
+      <p className="text-white text-left text-sm sm:text-lg ">
+        2011-2012
+        <br />
+        <br />
+        School
+      </p>
+      <p className="text-white text-left text-sm sm:text-lg mr-5">
+        10th
+        <br />
+        <br />
+        Army Public School, Jalandhar, Punjab
       </p>
     </div>
   );
