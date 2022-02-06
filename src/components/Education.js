@@ -17,7 +17,6 @@ function Education() {
         2020-Present
         <br />
         <br />
-        <br />
         University
       </p>
       <p className="text-white text-left text-sm sm:text-lg mr-5">
@@ -28,7 +27,7 @@ function Education() {
       </p>
       <p className="text-white text-left italic text-md sm:text-2xl"></p>
       <p className="text-white text-left text-sm sm:text-lg ">
-        2017-19 <br />
+        2017-19
         <br />
         <br />
         University
@@ -41,8 +40,7 @@ function Education() {
       </p>
       <p className="text-white text-left italic text-md sm:text-2xl"></p>
       <p className="text-white text-left text-sm sm:text-lg ">
-        2017-18 <br />
-        <br />
+        2017-18
         <br />
         <br />
         University
