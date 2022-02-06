@@ -32,7 +32,13 @@
   }
   .backgroundHome {
     background: #161415
-      url("https://firebasestorage.googleapis.com/v0/b/ritu-portfolio.appspot.com/o/final2.jpeg?alt=media&token=a25cb140-5c1b-4d62-9501-6a9469a5da7d")
+      url("https://firebasestorage.googleapis.com/v0/b/ritu-portfolio.appspot.com/o/home.jpeg?alt=media&token=e6c4fe9b-c2df-4be0-a886-bdbde51e708e")
+      no-repeat top center;
+    background-size: cover !important;
+  }
+  .backgroundAbout {
+    background: #161415
+      url("https://firebasestorage.googleapis.com/v0/b/ritu-portfolio.appspot.com/o/about.jpg?alt=media&token=68041767-f8d2-428f-a201-ce8e0a2a15ab")
       no-repeat top center;
     background-size: cover !important;
   }

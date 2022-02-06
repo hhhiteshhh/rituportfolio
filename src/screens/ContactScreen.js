@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Loader from "../components/Loader";
 import { db } from "../firebase";
 import { addDoc, collection, doc, serverTimestamp } from "firebase/firestore";
+import MSTeams from "../components/MSTeams";
 function ContactScreen() {
   const [loading, setLoading] = useState(true);
   const [send, setSend] = useState(false);
@@ -138,7 +139,10 @@ function ContactScreen() {
           )}
         </div>
       </div>
-      <hr />
+
+      <div className="h-[0.8px] bg-[#4e4e50] w-full"></div>
+      <MSTeams />
+      <div className="h-[0.8px] bg-[#4e4e50] w-full"></div>
       <Footer />
     </div>
   );
