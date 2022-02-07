@@ -18,69 +18,7 @@ function Hobbies() {
           place.
         </p>
       </h1>
-      <p className="text-white mx-auto italic text-md sm:text-3xl mt-4 grid-col-1"></p>
-      <h1 className="text-white text-left col-span-2 text-sm sm:text-2xl  mb-2 font-bold sm:pr-10 mr-5 sm:mr-10">
-        <br />
-        /How to write a blog in 20 minutes/
-        <br />
-        <br />
-        <p className="text-white text-left text-sm sm:text-xl leading-9">
-          <span className="italic">
-            The key to writing blog posts faster isn't to learn how to type
-            quicker, but to speak your blog post into existence.
-          </span>
-          <br />
-          <br />I outline the major four steps you need to take to blog faster.
-          <br />
-          <br />
-          <span className="italic font-bold text-2xl">
-            Step 1: Do Your Research
-          </span>
-          <br />
-          <br />
-          The very first thing you’re going to want to do is do your research.
-          If you’re going to write a blog post about best places to travel in{" "}
-          <a href="/blog" className="text-sm">
-            ...continue reading
-          </a>
-          <br />
-          <br />
-          <span className="italic font-bold text-2xl">
-            Step 2: Create Your Outline
-          </span>
-          <br />
-          <br />
-          This is the most important thing you’re going to have to do when using
-          the talk-to-text feature. Without a solid outline you{" "}
-          <a href="/blog" className="text-sm">
-            ...continue reading
-          </a>
-          <br />
-          <br />
-          <span className="italic font-bold text-2xl">
-            Step 3: Start Talking
-          </span>
-          <br />
-          <br />
-          To get the talk-to-text feature you will first need to open up Google
-          Docs. From there, click on tools in the top menu. After that scroll{" "}
-          <a href="/blog" className="text-sm">
-            ...continue reading
-          </a>
-          <br />
-          <br />
-          <span className="italic font-bold text-2xl">Step 4: Edit </span>
-          <br />
-          <br />
-          Once you finish your blog post, you’re going to have edit your
-          mistakes. These mistakes will look much different than if you{" "}
-          <a href="/blog" className="text-sm">
-            ...continue reading
-          </a>
-          <br />
-          <br />
-        </p>
-      </h1>
+
       <p className="text-white mx-auto italic text-md sm:text-3xl mt-4 grid-col-1 px-4">
         Some of my creative writings
       </p>

@@ -35,6 +35,7 @@ function AchievementsScreen() {
       <div className="h-[0.8px] bg-[#4e4e50] w-full"></div>
       <Achievements />
       <div className="h-[0.8px] bg-[#4e4e50] w-full"></div>
+      <div className="h-[0.8px] bg-[#4e4e50] w-full"></div>
       <Call />
       <div className="h-[0.8px] bg-[#4e4e50] w-full"></div>
       <div className="h-[0.8px] bg-[#4e4e50] w-full"></div>

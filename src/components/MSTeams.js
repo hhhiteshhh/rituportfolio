@@ -4,7 +4,7 @@ function MSTeams() {
   return (
     <div className="flex mx-auto px-3 items-center justify-center flex-col leading-8 py-5 bg-[#1a1a1d] text-white md:text-xl">
       <h1 className="my-5 text-lg md:text-4xl">
-        /Lets schedule a call on MS Teams
+        /Lets schedule a call on MS Teams/
       </h1>
       Step 1: Select “Schedule a Meeting” (calendar icon) below the compose box.
       <br />
