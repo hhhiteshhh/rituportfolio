@@ -6,7 +6,7 @@ function Skills() {
       <p className="text-white mx-auto italic text-md sm:text-3xl mt-4 font-bold">
         Skills
       </p>
-      <p className="text-white text-left text-sm sm:text-2xl mb-2 font-bold col-span-2 sm:col-span-1">
+      <h1 className="text-white text-left text-sm sm:text-2xl mb-2 font-bold col-span-2 sm:col-span-1">
         Soft-Skills
         <p className="text-white text-left text-sm sm:text-lg leading-7">
           <li>Communication</li>
@@ -17,15 +17,16 @@ function Skills() {
           <li>Attention to details</li>
           <li>LeaderShip</li>
         </p>
-      </p>
+      </h1>
       <p className="inline-flex sm:hidden"></p>
-      <p className="text-white text-left text-sm sm:text-2xl mb-2 font-bold col-span-2 sm:col-span-1">
+      <h1 className="text-white text-left text-sm sm:text-2xl mb-2 font-bold col-span-2 sm:col-span-1">
         Tools
         <p className="text-white text-left text-sm sm:text-lg leading-7">
           <li>Microsoft Office</li>
-          <li>GIS</li>
+          <li>Geographical Information Systems (GIS)</li>
+          <li>Google Earth</li>
         </p>
-      </p>
+      </h1>
     </div>
   );
 }

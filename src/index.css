@@ -42,4 +42,10 @@
       no-repeat top center;
     background-size: cover !important;
   }
+  .backgroundAchievements {
+    background: #161415
+      url("https://firebasestorage.googleapis.com/v0/b/ritu-portfolio.appspot.com/o/achievements.jpg?alt=media&token=5e7e755f-7cc6-4f79-847e-a6864cd89128")
+      no-repeat top center;
+    background-size: cover !important;
+  }
 }

@@ -11,7 +11,7 @@ function Loader() {
         backgroundColor: "#1a1a1d",
       }}
     >
-      <div classname="">
+      <div className="">
         <Circle color="#65ccb8" size={60} />
         <h1 className="text-white pt-5">Loading...</h1>
       </div>
